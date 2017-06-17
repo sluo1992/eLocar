@@ -520,16 +520,10 @@ static NSString *viewFlag__ = @"";
     if (!pickerLabel)
     {
         pickerLabel = [[UILabel alloc] init];
-        // Setup label properties - frame, font, colors etc
-        //adjustsFontSizeToFitWidth property to YES
-        // pickerLabel.minimumFontSize = 8.;
-        //        pickerLabel.minimumScaleFactor = 10.0;
-        //        pickerLabel.adjustsFontSizeToFitWidth = YES;
         [pickerLabel setTextAlignment:NSTextAlignmentCenter];
         [pickerLabel setBackgroundColor:[UIColor clearColor]];
         [pickerLabel setFont:[UIFont boldSystemFontOfSize:24]];
-        
-        [pickerLabel setTextColor:[UIColor whiteColor]];//[UIColor colorWithRed:0.0 green:1.0 blue:1.0 alpha:1.0]];
+        [pickerLabel setTextColor:[UIColor whiteColor]];
     }
     // Fill the label text here
     pickerLabel.text = [self pickerView:pickerView titleForRow:row forComponent:component];

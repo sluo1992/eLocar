@@ -594,7 +594,9 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
 
     return delegate;
 }
+- (void)github{
 
+}
 - (void)setDelegate:(AFURLSessionManagerTaskDelegate *)delegate
             forTask:(NSURLSessionTask *)task
 {

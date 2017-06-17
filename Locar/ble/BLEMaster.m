@@ -729,7 +729,7 @@ finalOperation:
     if(reGeocode.formattedAddress == nil)
     {
         NSLog(@"reGeocode.formattedAddress == nil return");
-        //return;
+        return;
     }
     //判断水平精度是否有效
     if (location.horizontalAccuracy < 0)
